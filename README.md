@@ -16,7 +16,7 @@ Essentially, this is shorthand for:
         $(this).fadeIn(speed, easing, callback);
     }
     
-So you likely won't need it unless you have plenty of fades you're looking to apply it to or you just *love* saving 5 lines. And if you do use it, you'll negate any savings without concatenating your code to minimize HTTP requests. (Thanks to (Koes)[http://koesbong.com]) for bringing this up.)
+So you likely won't need it unless you have plenty of fades you're looking to apply it to or you just *love* saving 5 lines. And if you do use it, you'll negate any savings without concatenating your code to minimize HTTP requests. Thanks to (Koes)[http://koesbong.com]) for bringing this up.
 
 ## Usage:
 
