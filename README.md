@@ -22,7 +22,10 @@ So you likely won't need it unless you have plenty of fades you're looking to ap
 
 Use this just like jQuery's [fadeIn](http://api.jquery.com/fadeIn/) and [fadeOut](http://api.jquery.com/fadeOut/), but appending Safe. That is:
 
-* $(selectorOrGroup).fadeInSafe(speed, easing, callback);
-* $(selectorOrGroup).fadeOutSafe(speed, easing, callback);
+    $(selectorOrGroup).fadeInSafe(speed, easing, callback);
+
+or
+
+    $(selectorOrGroup).fadeOutSafe(speed, easing, callback);
 
 All three arguments are optional, and the first two will be skipped over in IE. Instead, a simple .show() or .hide() will run, then the callback will be executed.
