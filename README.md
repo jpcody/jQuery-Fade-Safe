@@ -8,7 +8,7 @@ This plugin exists because IE <= 8 don't exactly handle transparency well. Thing
 
 Essentially, this is shorthand for:
 
-    checkIfIe = ($.browser.msie && $.browser.version.substr(0,1) < 9) ? true : false;
+    var checkIfIe = ($.browser.msie && $.browser.version.substr(0,1) < 9) ? true : false;
 
     if(checkIfIe === true){
         $(this).show(callback);
